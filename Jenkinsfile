@@ -20,7 +20,7 @@ pipeline {
     stage('Push') {
       steps {
         sh 'docker push edwardedde10/jenkins-docker-hub'
-      }g
+      }
     }
   }
   post {
